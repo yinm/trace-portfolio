@@ -1,1 +1,1 @@
-# trace-portfolio
+Trace [UI Designer Sumire Hibiya](http://sumirehibiya.com/) for study.
