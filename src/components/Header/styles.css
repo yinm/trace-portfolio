@@ -1,0 +1,35 @@
+.App-header {
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+
+.title {
+  float: left;
+}
+
+.App-title {
+  margin: 0;
+  font-size: 1rem;
+  letter-spacing: 1.8px;
+}
+
+.App-subtitle {
+  margin-bottom: 10px;
+  font-size: 0.2rem;
+  letter-spacing: 1.2px;
+}
+
+.nav {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.nav-table {
+}
+
+.nav-cell {
+  float: left;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
