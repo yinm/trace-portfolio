@@ -6,7 +6,7 @@ export class Main extends Component {
     return (
       <div className="p-index">
         <div className="p-index__thumbnail">
-          <img src="../../../public/ph_profile-3c923ce4.jpg" alt="Ph profile" />
+          <img src="/ph_profile-3c923ce4.jpg" alt="Ph profile" />
         </div>
         <div className="p-index__mainContent">
           <section>
