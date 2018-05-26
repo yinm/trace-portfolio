@@ -36,4 +36,6 @@
 
 .belong-description {
   margin: 0;
+  padding-bottom: 5px;
+  font-size: .9rem;
 }

@@ -4,7 +4,9 @@ import styles from './styles.css'
 export class Image extends Component {
   render() {
     return (
-      <div className="dummy-image"></div>
+      <div className="content-image">
+        <div className="dummy-image" />
+      </div>
     )
   }
 }

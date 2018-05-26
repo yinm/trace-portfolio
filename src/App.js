@@ -9,7 +9,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="wrap">
         <Header/>
         <main className="main-content">
           <Image className="content-image"/>
