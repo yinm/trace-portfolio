@@ -3,6 +3,12 @@
   padding-bottom: 30px;
 }
 
+.App-header::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
 .title {
   float: left;
 }
