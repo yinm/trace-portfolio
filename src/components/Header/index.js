@@ -1,19 +1,24 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import styles from './styles.css'
 
 export class Header extends Component {
   render() {
     return (
-      <header className="App-header">
-        <div className="title">
-          <p className="App-subtitle">UI DESIGNER</p>
-          <h1 className="App-title"><a href="#">SUMIRE HIBIYA</a></h1>
+      <header className="p-header">
+        <div className="p-headerMain">
+          <p className="p-headerMain__description">UI DESIGNER</p>
+          <h1 className="p-headerMain__logo">
+            <a href="/">SUMIRE HIBIYA</a>
+          </h1>
         </div>
-
-        <nav className="nav">
-          <ul className="nav-table">
-            <li className="nav-cell"><a href="#">TOP</a></li>
-            <li className="nav-cell"><a href="#">BLOG</a></li>
+        <nav className="p-headerMenu">
+          <ul className="p-headerMenu__wrapper">
+            <li className="p-headerMenu__item">
+              <a href="/">TOP</a>
+            </li>
+            <li className="p-headerMenu__item">
+              <a href="#">BLOG</a>
+            </li>
           </ul>
         </nav>
       </header>

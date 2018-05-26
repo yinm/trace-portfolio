@@ -1,9 +1,9 @@
-.App-footer {
-  margin-top: 120px;
-  padding: 30px;
-  color: #949199;
+.footer {
+  padding: 30px 0;
+  margin-top: 100px;
   text-align: center;
-  font-size: .4rem;
-  letter-spacing: 1.8px;
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  color: #949199;
 }
-

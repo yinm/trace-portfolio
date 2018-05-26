@@ -4,9 +4,7 @@ import styles from './styles.css'
 export class Footer extends Component {
   render() {
     return (
-      <footer className="App-footer">
-        <p>© 2017 SUMIRE HIBIYA</p>
-      </footer>
+      <p className="footer">© 2017 SUMIRE HIBIYA</p>
     )
   }
 }
