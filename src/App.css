@@ -8,6 +8,12 @@ a {
   color: #313033;
 }
 
-li {
+ul {
   list-style-type: none;
+}
+
+.main-content::after {
+  clear: both;
+  content: '';
+  display: block;
 }

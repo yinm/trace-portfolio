@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <main>
+        <main className="main-content">
           <Image className="content-image"/>
           <Content className="content-text"/>
         </main>
