@@ -1,0 +1,41 @@
+.content-text {
+  float: left;
+  width: 80%;
+  font-size: 0.9rem;
+}
+
+.main-description p {
+  margin: 0 0 17px;
+  line-height: 1.5;
+}
+
+.social-list {
+  list-style-type: disc;
+  padding-left: 30px;
+}
+
+.social-list li {
+  margin-bottom: 10px;
+}
+
+.social-list li a {
+  color: #488EB0;
+}
+
+.section-title {
+  margin-top: 60px;
+  font-size: .7rem;
+  letter-spacing: 1.8px;
+}
+
+.timeline {
+  color: #949199;
+  font-size: .8rem;
+  margin: 10px 0 5px;
+}
+
+.belong-description {
+  margin: 0;
+  padding-bottom: 5px;
+  font-size: .9rem;
+}
