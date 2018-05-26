@@ -1,0 +1,244 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font:inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "游ゴシック", YuGothic, "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", sans-serif;
+  font-size: modular-scale(1);
+  line-height: 1.2;
+  margin: 0 0 0.85em;
+}
+
+p {
+  margin: 0 0 0.85em;
+}
+
+hr {
+  border-bottom: 2px solid #e6e6e6;
+  border-left: 0;
+  borer-right: 0;
+  border-top: 0;
+  margin: 1.7em 0;
+}
+
+html,
+body {
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "游ゴシック", YuGothic, "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", sans-serif;
+  color: #313033;
+  font-size: 0.95em;
+  backgound-color: #fff;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    padding: 0 8px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #488eb0;
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: shade(#488eb0, 25%);
+}
+
+dl {
+  margin: 0;
+}
+
+dt {
+  font-weight: 600;
+  margin: 0;
+}
+
+dd {
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+img.picture {
+  margin: 0;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0.85em 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+th {
+  border-bottom: 1px solid shade(#e6e6e6, 25%);
+  font-weight: 600;
+  padding: 0.85em 0;
+  text-align: left;
+}
+
+td {
+  border-bottom: 2px solid #e6e6e6;
+  padding: 0.85em 0;
+}
+
+tr,
+td,
+th {
+  vertical-align: middle;
+}
