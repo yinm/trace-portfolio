@@ -10,7 +10,14 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <Article/>
+        <main className="l-article__main">
+          <Article/>
+          <div style={{
+            backgroundColor: '#999',
+            width: '300px',
+          }}>
+          </div>
+        </main>
         <Footer/>
       </div>
     )
