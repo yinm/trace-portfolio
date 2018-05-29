@@ -1,0 +1,22 @@
+.l-blog__wrapper {
+  max-width: 660px;
+  font-family: "brandon-grotesque", sans-serif;
+}
+
+.l-blog__title {
+  font-size: 1.73rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.l-blog__date {
+  font-size: .8rem;
+  color: #949199;
+  letter-spacing: 1.2px;
+  margin-bottom: 30px;
+}
+
+.l-blog__content {
+  width: 660px;
+}
