@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Header } from './components/Header'
 import { Footer } from './components/Footer'
-import { Blog } from './components/blog/index'
+import { Article } from './components/Article'
 
 import './App.css';
 
@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <Blog/>
+        <Article/>
         <Footer/>
       </div>
     )
