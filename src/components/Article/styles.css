@@ -28,3 +28,8 @@
   padding-left: 15px;
   border-left: 3px solid #488CB0;
 }
+
+.l-blog__paragraph {
+  font-size: 1.04rem;
+  line-height: 1.8;
+}

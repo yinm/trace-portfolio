@@ -13,7 +13,7 @@ export class Article extends Component {
           <p>Photo by Patrick Perkins on Unsplash</p>
 
           <h2 className="l-blog__heading">プロダクト開発のキックオフで必ずすることは、プロジェクトゴールのすり合わせ</h2>
-          <p>
+          <p className="l-blog__paragraph">
             UIデザイン案件のオリエンやキックオフに参加する時、実際にそのプロジェクトに入るかどうか関係なく、必ず最初の打ち合わせでそのプロジェクトのゴールをクライアントとすり合わせるようにしています。当たり前ですが…その当たり前が大事…！
           </p>
           <p>
