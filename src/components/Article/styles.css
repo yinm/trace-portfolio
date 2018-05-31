@@ -20,3 +20,11 @@
 .l-blog__content {
   width: 660px;
 }
+
+.l-blog__heading {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  padding-left: 15px;
+  border-left: 3px solid #488CB0;
+}
