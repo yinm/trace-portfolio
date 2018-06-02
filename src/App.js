@@ -10,7 +10,9 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <Article />
+        <div className="l-blog__wrapper">
+          <Article />
+        </div>
         <Footer/>
       </div>
     )
