@@ -55,3 +55,64 @@
 .p-article__info span {
   margin-right: 20px;
 }
+
+.p-article__content {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.p-article__content p {
+  margin-bottom: 1.3em;
+}
+
+.p-article__content h1,
+.p-article__content h2,
+.p-article__content h3,
+.p-article__content h4 {
+  margin: 2.8em 0 1.4em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+.p-article__content h1 {
+  margin-left: -15px;
+  padding-left: 15px;
+  font-size: 1.6em;
+  border-left: solid 3px #488eb0;
+}
+
+.p-article__content h2 {
+  font-size: 1.42em;
+}
+
+.p-article__content h3 {
+  font-size: 1.26em;
+  font-weight: bold;
+}
+
+.p-article__content h4 {
+  font-size: 1.12em;
+}
+
+.p-article__content small,
+.p-article__content .font-small {
+  font-size: 0.8em;
+}
+
+.p-article__content ul {
+  margin-bottom: 1.3em;
+  list-style-type: disc;
+  padding-left: 30px;
+}
+
+.p-article__content img {
+  border: solid 1px #e6e6e6;
+}
+
+.p-article__content strong {
+  font-weight: bold;
+}
+
+.p-article__content a {
+  text-decoration: underline;
+}
