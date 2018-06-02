@@ -116,3 +116,15 @@
 .p-article__content a {
   text-decoration: underline;
 }
+
+.p-articleSocial {
+  display: flex;
+}
+
+.p-articleSocial li {
+  height: 20px;
+}
+
+.p-articleSocial li:first-child {
+  margin-right: 10px;
+}
