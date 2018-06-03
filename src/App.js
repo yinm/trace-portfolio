@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Header } from './components/Header'
 import { Article } from './components/Article'
 import { TableOfContents } from './components/TableOfContents'
+import { Profile } from './components/Profile'
 import { Footer } from './components/Footer'
 
 import './App.css';
@@ -16,6 +17,7 @@ class App extends Component {
           <div className="l-blog__sub p-blogSidebar">
             <div className="p-blogSidebar__outer" style={{ position: 'relative', top: '0px' }}>
               <TableOfContents/>
+              <Profile/>
             </div>
           </div>
         </div>
