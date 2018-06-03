@@ -10,9 +10,9 @@ export class Profile extends Component {
         <p className="p-sidebarProfile__title">SUMIRE HIBIYA</p>
         <p className="p-sidebarProfile__subTitle">UI DESIGNER</p>
         <p className="p-sidebarProfile__text">
-          デジタルなプロダクト作り全般に関わるUIデザイナー。クラウドポートのUIデザイナー兼プロダクトマネージャーをやりつつ、フリーランスでも仕事をしています。
-          <a href="#">Twitter</a>
-          <a href="#">Instagram</a>
+          デジタルなプロダクト作り全般に関わるUIデザイナー。クラウドポートのUIデザイナー兼プロダクトマネージャーをやりつつ、フリーランスでも仕事をしています。<br />
+          <a href="#" target="_blank">Twitter</a>
+          <a href="#" target="_blank"> Instagram</a>
         </p>
       </div>
     )

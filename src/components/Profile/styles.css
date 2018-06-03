@@ -1,3 +1,10 @@
+.c-heading__sub {
+  margin-bottom: 10px;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.7px;
+}
+
 .p-sidebarProfile__img {
   margin: 0 auto 10px;
   width: 100px;
@@ -5,4 +12,31 @@
   background: url('/ph_profile-3c923ce4.jpg');
   background-size: 100px 100px;
   border-radius: 50px;
+}
+
+.p-sidebarProfile__title {
+  margin-bottom: 0;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+.p-sidebarProfile__subTitle {
+  margin-bottom: 10px;
+  font-family: "brandon-grotesque", sans-serif;
+  color: #949199;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.p-sidebarProfile__text {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .p-sidebarProfile {
+    margin-top: 50px;
+  }
 }
