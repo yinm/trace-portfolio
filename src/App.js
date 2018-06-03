@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Header } from './components/Header'
-import { Footer } from './components/Footer'
 import { Article } from './components/Article'
+import { TableOfContents } from './components/TableOfContents'
+import { Profile } from './components/Profile'
+import { Footer } from './components/Footer'
 
 import './App.css';
 
@@ -10,14 +12,15 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <main className="l-article__main">
-          <Article/>
-          <div style={{
-            backgroundColor: '#999',
-            width: '300px',
-          }}>
+        <div className="l-blog__wrapper">
+          <Article />
+          <div className="l-blog__sub p-blogSidebar">
+            <div className="p-blogSidebar__outer" style={{ position: 'relative', top: '0px' }}>
+              <TableOfContents/>
+              <Profile/>
+            </div>
           </div>
-        </main>
+        </div>
         <Footer/>
       </div>
     )

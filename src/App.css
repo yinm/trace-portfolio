@@ -213,7 +213,8 @@ figure {
   margin: 0;
 }
 
-img.picture {
+img,
+picture {
   margin: 0;
   max-width: 100%;
 }
@@ -243,9 +244,13 @@ th {
   vertical-align: middle;
 }
 
-.l-article__main {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 980px;
+.l-blog__sub {
+  float: left;
+  display:block;
+  margin-right: 2.84259%;
+  width: 28.01019%;
+}
+
+.l-blog__sub:last-child {
+  margin-right: 0;
 }
