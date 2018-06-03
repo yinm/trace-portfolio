@@ -1,0 +1,8 @@
+.p-sidebarProfile__img {
+  margin: 0 auto 10px;
+  width: 100px;
+  height: 100px;
+  background: url('/ph_profile-3c923ce4.jpg');
+  background-size: 100px 100px;
+  border-radius: 50px;
+}
