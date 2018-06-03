@@ -244,3 +244,13 @@ th {
   vertical-align: middle;
 }
 
+.l-blog__sub {
+  float: left;
+  display:block;
+  margin-right: 2.84259%;
+  width: 28.01019%;
+}
+
+.l-blog__sub:last-child {
+  margin-right: 0;
+}

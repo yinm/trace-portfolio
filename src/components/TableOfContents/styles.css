@@ -1,0 +1,33 @@
+.p-blogToc {
+  font-size: 13px;
+}
+
+.p-blogToc__wrapper {
+  padding: 0 !important;
+}
+
+.p-blogToc__wrapper a {
+  display: block;
+  margin: 3px 0;
+  padding: 2px;
+  color: #313033;
+  border-radius: 2px;
+}
+
+.p-blogToc__wrapper a:hover {
+  background-color: #fafafa;
+}
+
+@media screen and (max-width: 768px) {
+  .p-blogToc {
+    display: none;
+  }
+}
+
+.c-heading__sub {
+  margin-bottom: 10px;
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.7px;
+}
